@@ -1,0 +1,14 @@
+:root {
+  --main-background-color: #f5f1fe;
+  --primary-color: #995db5;
+  --secondary-font: "PT Mono", monospace;
+}
+
+h5,
+p,
+ul {
+  font-family: var(--secondary-font);
+}
+body {
+  background-color: var(--main-background-color);
+}
