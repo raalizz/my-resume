@@ -21,3 +21,14 @@ ul {
   color: var(--primary-color);
   text-transform: uppercase;
 }
+h6 {
+  font-weight: 800;
+}
+.certificates {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+.certificates:hover {
+  text-decoration: underline;
+}
