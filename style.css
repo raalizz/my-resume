@@ -1,6 +1,6 @@
 :root {
-  --main-background-color: #f5f1fe;
-  --primary-color: #995db5;
+  --main-background-color: #e8eef9;
+  --primary-color: #90a4e7;
   --secondary-font: "PT Mono", monospace;
 }
 
@@ -9,6 +9,15 @@ p,
 ul {
   font-family: var(--secondary-font);
 }
-body {
+
+.first-column {
   background-color: var(--main-background-color);
+}
+.my-picture {
+  display: block;
+  margin: 0 auto;
+}
+.name {
+  color: var(--primary-color);
+  text-transform: uppercase;
 }
