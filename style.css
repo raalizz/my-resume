@@ -33,3 +33,12 @@ h6 {
 .certificates:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 900px) {
+  p {
+    font-size: 15px;
+  }
+  a {
+    font-size: 15px;
+  }
+}
